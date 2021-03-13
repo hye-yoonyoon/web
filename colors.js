@@ -25,9 +25,9 @@ var target = document.querySelector('body');
 if(self.value === 'night'){
   self.value = 'day';
   Body.setBackgroundColor('black');
-  Body.setColor('white');
+  Body.setColor('yellow');
 
-  Links.setColor('white');
+  Links.setColor('yellow');
 } else {
   Body.setBackgroundColor('white');
   Body.setColor('black');
